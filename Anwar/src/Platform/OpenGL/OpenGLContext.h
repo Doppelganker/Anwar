@@ -1,0 +1,19 @@
+#pragma once
+
+#include "Anwar/Renderer/GraphicsContext.h"
+
+struct GLFWwindow;
+
+namespace Anwar
+{
+    class OpenGLContext : public GraphicsContext
+    {
+    public:
+        OpenGLContext(GLFWwindow* windowHandle);
+
+        virtual void Init() override;
+        virtual void SwapBuffers() override;
+    private:
+        GLFWwindow* m_WindowHandle;
+    };
+}

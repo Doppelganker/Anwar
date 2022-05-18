@@ -1,0 +1,19 @@
+[submodule "Anwar/vendor/spdlog"]
+	path = Anwar/vendor/spdlog
+	url = https://github.com/Doppelganker/spdlog
+[submodule "Anwar/vendor/GLFW"]
+	path = Anwar/vendor/GLFW
+	url = https://github.com/Doppelganker/glfw
+[submodule "Anwar/vendor/glm"]
+	path = Anwar/vendor/glm
+	url = https://github.com/Doppelganker/glm
+[submodule "Anwar/vendor/imgui"]
+	path = Anwar/vendor/imgui
+	url = https://github.com/Doppelganker/imgui
+	branch = docking
+[submodule "Anwar/vendor/ImGuizmo"]
+	path = Anwar/vendor/ImGuizmo
+	url = https://github.com/Doppelganker/ImGuizmo
+[submodule "Anwar/vendor/yaml-cpp"]
+	path = Anwar/vendor/yaml-cpp
+	url = https://github.com/Doppelganker/yaml-cpp
