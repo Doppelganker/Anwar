@@ -11,3 +11,6 @@ bin-int/
 **.vcxproj
 **.vcxproj.filters
 **.vcxproj.user
+
+# Directories
+scripts/__pycache__
